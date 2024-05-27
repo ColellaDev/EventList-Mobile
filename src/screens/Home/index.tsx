@@ -40,9 +40,9 @@ export function Home() {
       </View>
 
       <FlatList 
-        data={participants}
-        keyExtractor={(item) => item}
-        renderItem={({ item }) => (
+        data={participants} 
+        keyExtractor={(item) => item} 
+        renderItem={({ item }) => (  
           <Participant 
             key={item} 
             name={item} 
